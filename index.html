@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Git (Cheatsheet)</title>
+</head>
+<body>
+    <h1>Configuration minimale du git</h1>
+    <ul>
+        <li>
+            Définir votre nom de développeur <br>
+            <span><em>git config --global user.name "Fullfifax"</em></span>
+        </li>
+        <li>
+            Définir votre adresse email <br>
+            <span><em>git config --global user.name "myaccount@gmail.com"</em></span>
+        </li>
+    </ul>
+    <h1>Création d'un dépôt git && Initialisation du dépôt</h1>
+    <ul>
+        <li>
+            Rendez-vous dans le dossier de votre projet<br>
+            <span><em>cd nom_du_dossier</em></span>
+        </li>
+        <li>
+            Initialisez git <br>
+            <span><em>git init</em></span>
+        </li>
+    </ul>
+    <h1>Ajout du fichier</h1>
+    <ul>
+        <li>
+            Vérifier le status du dépôt git <br>
+            <span><em>git status</em></span>
+        </li>
+        <li>
+            Puis ajouter le(s) fichier(s) non suivi(s): (non indexé(s)) <br>
+            <span><em>git add nom_du_fichier</em></span>
+        </li>
+        <li>
+            Remarque: Pour le désindéxer <br>
+            <span><em>git rm --cached nom_du_fichier</em></span>
+        </li>
+    </ul>
+    <h1>Création de commit</h1>
+    <ul>
+        <li>
+            Pour commiter un ou plusieurs fichiers <br>
+            <span><em>git commit -m "Résumé de(s) tâches ou modification(s) que vous avez fait sur les fichiers que vous venez d'indexer"</em></span>
+        </li>
+    </ul>
+</body>
+</html>
