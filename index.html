@@ -105,5 +105,28 @@
             <span><em>git log nom_fichier (afficher les commits de ce fichier)</em></span>
         </li>
     </ul>
+    <h1>Parcourir les différences dans l'historique</h1>
+    <ul>
+        <li>
+            Pour voir la différence entre le répertoire du travail et l'index <br>
+            <span><em>git diff</em></span> <br>
+        </li>
+        <li>
+            Pour voir la différence entre l'index et le dépôt git<br>
+            <span><em>git diff --cached</em></span> <br>
+        </li>
+        <li>
+            Pour comparer le dépot au répertoire de travail<br>
+            <span><em>git diff HEAD</em></span> <br>
+        </li>
+        <li>
+            Pour voir en quoi consiste le dernier commit<br>
+            <span><em>git diff HEAD^1</em></span> <br>
+        </li>
+        <li>
+            Pour voir la différence d'un commit précis<br>
+            <span><em>git diff hash_du_commit_1 hash_du_commit_2 (git log --oneline pour voir le raccourci du hash du commit)</em></span> <br>
+        </li>
+    </ul>
 </body>
 </html>
