@@ -224,5 +224,17 @@
             <span><em>git tag -a v1.0.0 hash_du_commit -m "Résumé de la version ..."</em></span>
         </li>
     </ul>
+    <h1>Créer un dépôt distant</h1>
+    <ul>
+        <li>
+            Pour créer un dépôt distant (NB: Pas de source existant) <br>
+            <span><em>git init --bare nom_depot_distant</em></span>
+        </li>
+        <li>
+            Pour créer un dépôt distant à partir d'une source existante <br>
+            <span><em>cd ../nom_dossier_depot_local</em></span> <br>
+            <span><em>git clone --bare nom_depot_local/ nom_depot_distant</em></span>
+        </li>
+    </ul>
 </body>
 </html>
