@@ -255,5 +255,26 @@
             <span><em>git pull origin master</em></span> <br>
         </li>
     </ul>
+    <h1>Créer et supprimer une branche distante</h1>
+    <ul>
+        <li>
+            Dans le dépôt local <br>
+            <span><em>git branch nom_branche</em></span> <br>
+            <span><em>git push origin nom_branche</em></span>
+        </li>
+        <li>
+            Pour la récuperer (pour les autres dépôts locaux)<br>
+            <span><em>git pull origin nom_branche</em></span>
+        </li>
+        <li>
+            Pour créer une branche dans le dépôt local -> distant<br>
+            <span><em>git checkout -b nom_branche origin/nom_branche (orgin/nom_branche: c'est l'adresse)</em></span>
+        </li>
+        <li>
+            Pour supprimer une branche distante<br>
+            <span><em>git push origin :nom_branche_distante</em></span> <br>
+            <span><em>git branch -d nom_branche_locale</em></span>
+        </li>
+    </ul>
 </body>
 </html>
